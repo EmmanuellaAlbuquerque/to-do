@@ -1,0 +1,138 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing: border-box;
+    background-color:  #F3D8D3;
+    margin: 20px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#app {
+    padding: 20px;
+    height: 100vh;
+    border: 1px solid #FFF6E3;
+}
+
+.list {
+    list-style-type:none;
+    text-align: center;
+    padding-left: 0;
+    word-wrap: break-word;
+}
+
+.list li {
+    border: 1px solid #FFF6E3;
+    padding: 10px;
+}
+
+.list li a i {
+    color: #836452;
+    transition: 0.4s;
+}
+
+.list li a i:hover {
+    color: #ff0000aa;
+}
+
+
+.fa-trash {
+    margin-left: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container button,
+.container input {
+    width: 100px;
+    height: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+    border-radius: 50px;
+    font-size: 15px;
+    outline: 0;
+}
+
+.container button {
+    background-color: #C23B23;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.container button:hover,
+.container button:active {
+    background-color: #611E12;
+}
+
+.container input {
+    width: 200px;
+    padding-left: 50px;
+    margin: 10px;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (min-width: 700px){
+    body {
+        font-size: 22px;
+    }
+    .container button,
+    .container input {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+
+    }
+    .container input {
+        width: 500px;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 1000px){
+    body {
+        font-size: 30px;
+    }
+
+    .container button,
+    .container input {
+        width: 300px;
+        height: 70px;
+        font-size: 30px;
+
+    }
+    
+    .container input {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 1000px){
+    body {
+        font-size: 40px;
+    }
+
+    .container button,
+    .container input {
+        width: 300px;
+        height: 80px;
+        font-size: 40px;
+
+    }
+
+    .container input {
+        width: 500px;
+    }
+}
