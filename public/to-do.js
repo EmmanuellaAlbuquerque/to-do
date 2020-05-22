@@ -37,6 +37,8 @@ function renderTo_dos() {
         // Adiciona o elemento li em uma ul
         listElement.appendChild(to_doElement)
     }
+
+    event.preventDefault()
 }
 
 // Adiciona uma nova tarefa
